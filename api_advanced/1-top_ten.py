@@ -12,4 +12,4 @@ def top_ten(subreddit):
                      allow_redirects=False, timeout=10)
     except requests.RequestException:
         pass
-    print("OK")
+    print("OK", end="")
